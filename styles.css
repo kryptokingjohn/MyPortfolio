@@ -1,0 +1,67 @@
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Accordion Styling */
+
+body {
+    background: url(/DOM_Manipulation_Projs/img/mountains-dock-lake.jpg) no-repeat center center/ cover;
+    height: 100vh; /* Set background image height to be the full height of the browser */
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+}
+
+.container {
+    width: auto;
+    height: 175px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px;
+    margin-top: 10px;
+}
+
+#timer {
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    margin: 0 10px;
+    border: none;
+}
+
+button i {
+    font-size: 2rem;
+    padding: 10px;
+    color:#fff;
+    width: 50px;
+}
+
+#play {
+    background-color: green;
+    border-radius: 5px;
+}
+
+#pause {
+    background-color: orange;
+    border-radius: 5px;
+}
+
+#reset {
+    background-color: crimson;
+    border-radius: 25px;
+}
